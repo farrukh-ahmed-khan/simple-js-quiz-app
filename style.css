@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(35deg, #2d3436 70%, #d3d3d3 30%);
+}
+.question {
+  background-color: #d3d3d3;
+  
+}
+#resultParent {
+  display: none;
+}

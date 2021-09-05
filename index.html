@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ APP</title>
+  </head>
+  <body>
+    <div class="p-3">
+
+      <div class="container">
+        <div class="p-5 rounded shadow question text-white">
+          <h4  style="color: #2d3436;">Qustion Number <span id="currentQuestionNumber" class="fs-1">1</span>/<span id="totalQuestionQuantity">20</span></h4>
+          <h3 id="question" style="color: #2d3436;">Question</h3>
+        </div>  
+      </div>
+      <div class="container">
+        <div style="background-color: #191c1d;" class="p-5 rounded shadow text-white">
+          <div id="optionsParent" class="row"></div>
+          <div id="resultParent" style="width: 100%; max-width: 500px;" class="bg-white rounded shadow p-5 text-dark">
+            <p id="resultText" class="fs-4">Result</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
